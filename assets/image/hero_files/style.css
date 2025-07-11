@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.masthead {
+    background: linear-gradient(90deg, white, transparent 70%), url(../coffeeshop-bootstrap/images/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+.hh2 {
+    font-family: 'Merienda One', cursive;
+
+}
+
+.borders {
+    border: 1px solid black;
+}
+
+
+.widthy {
+    width: 90%;
+}
+
+.smalll {
+    font-size: 15px;
+}
+
+i {
+    padding: 12px;
+    background-color: #be9c79;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.form {
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: black!important;
+    color: white;
+}
+
+@media(max-width: 1400px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .smalll {
+        font-size: 15px;
+    }
+
+    .jumbotron {
+        /* background-color: rgb(123, 94, 161) !important; */
+    }
+
+}
+
+@media(max-width: 991px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .smalll {
+        font-size: 12px;
+    }
+
+    .jumbotron {
+        /* background-color: aqua !important; */
+    }
+
+}
+
+@media(max-width: 768px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .smalll {
+        font-size: 12px;
+    }
+
+    .jumbotron {
+        /* background-color: rgb(47, 175, 96) !important; */
+    }
+
+
+}
+
+@media(max-width: 577px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .smalll {
+        font-size: 12px;
+    }
+
+    .jumbotron {
+        /* background-color: rgb(191, 201, 51) !important; */
+    }
+
+
+}
